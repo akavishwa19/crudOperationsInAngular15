@@ -1,4 +1,4 @@
-<h1 mat-dialog-title>Add Product Form</h1>
+<h1 mat-dialog-title>{{heading}} Product </h1>
 <div mat-dialog-content>
   <br>
 
@@ -25,7 +25,7 @@
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <label for=""><h1>Product freshness</h1></label>
+    <label><h1>Product freshness</h1></label>
     <mat-radio-group formControlName="freshness" class="example-radio-group">
       <mat-radio-button *ngFor="let fresh of freshnesslist" [value]="fresh">
         {{fresh}}
@@ -48,7 +48,7 @@
 
 <div mat-dialog-action [align]="'end'">
   <button mat-raised-button color="warn" mat-dialog-close>Close</button>
-  <button style="margin-left: 10px" mat-raised-button color="primary" (click)="addProducts()" >Save</button>
+  <button style="margin-left: 10px" mat-raised-button color="primary" (click)="addProducts()" >{{actionbtn}}</button>
 
 </div>
 
