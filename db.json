@@ -1,24 +1,6 @@
 {
   "productList": [
     {
-      "productName": "mango",
-      "category": "Fruits",
-      "freshness": "second-hand",
-      "price": 150,
-      "comments": "not fresh",
-      "date": "2023-06-06T18:30:00.000Z",
-      "id": 3
-    },
-    {
-      "productName": "lichi",
-      "category": "Fruits",
-      "freshness": "brand new",
-      "price": 200,
-      "comments": "1kg for 200",
-      "date": "2023-06-25T18:30:00.000Z",
-      "id": 4
-    },
-    {
       "productName": "onion",
       "category": "Vegetables",
       "freshness": "second-hand",
